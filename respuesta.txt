@@ -1,0 +1,14 @@
+Pregunta 7
+De las preguntas anteriores, se ha generado codigo por cada funcion, ambas dividen entre 4, pero difieren un poco en su implementacion. Investigue a que se debe dicha diferencia y comente cuales podrian ser las consecuencias.
+
+Rpta:
+
+Hasta donde estuve invertigando, una de las razones es el interprete , depende mucho donde lo estemos generando.
+
+Ejemplo
+g++ Pregunta6.cpp -S
+Este tipo de complilado es generado ppor linux
+
+Ejemplo
+g++ Pregunta6.cpp -S -masm=intel -> x64bit
+Este es generado por INTEL 
